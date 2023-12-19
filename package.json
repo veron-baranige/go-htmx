@@ -6,8 +6,8 @@
     "node": "v19.8.1"
   },
   "scripts": {
-    "tailwind:dev": "npx tailwindcss -i src/styles/input.css -o dist/output.css --watch",
-    "tailwind:build": "npx tailwindcss -i src/styles/input.css -o dist/output.css --minify"
+    "tailwind:dev": "npx tailwindcss -i static/index.css -o static/tailwind.css --watch",
+    "tailwind:build": "npx tailwindcss -i static/index.css -o static/tailwind.css --minify"
   },
   "keywords": [],
   "author": "",
