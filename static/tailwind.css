@@ -539,3 +539,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.border {
+  border-width: 1px;
+}

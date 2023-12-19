@@ -1,0 +1,7 @@
+package components
+
+templ Button(clickCount string) {
+  <button class="border bg-red" hx-post="/clicked" hx-swap="outerHTML">
+    clicks: {clickCount}
+  </button>
+}
