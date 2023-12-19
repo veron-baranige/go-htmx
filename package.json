@@ -1,0 +1,18 @@
+{
+  "name": "todo-htmx",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "v19.8.1"
+  },
+  "scripts": {
+    "tailwind:dev": "npx tailwindcss -i src/styles/input.css -o dist/output.css --watch",
+    "tailwind:build": "npx tailwindcss -i src/styles/input.css -o dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.7"
+  }
+}
